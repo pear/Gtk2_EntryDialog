@@ -201,10 +201,10 @@ class Gtk2_EntryDialog extends GtkMessageDialog
     *
     *   @param int  $response_id    Response code
     */
-    public function setRefaultResponse($response_id)
+    public function setDefaultResponse($response_id)
     {
         $this->set_default_response($response_id);
-    }//public function setRefaultResponse($response_id)
+    }//public function setDefaultResponse($response_id)
 
 
 
